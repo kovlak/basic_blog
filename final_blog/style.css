@@ -51,3 +51,34 @@ nav{
     padding-bottom: .75rem;
     color: white;
 }
+
+.link a::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.link a:hover::after{
+    width: 70%;
+    background-color: #1d4ed8;
+
+}
+
+.btn{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #1d4ed8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #1d4ed8;
+}
