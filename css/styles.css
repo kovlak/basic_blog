@@ -1,0 +1,40 @@
+
+.menu_header{
+    text-align: center;
+    background-color: #154360;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 5px;
+    justify-content: center;
+}
+header.menu_header a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    font-size: 60%;
+}
+header.menu_header a:hover{
+    color: #D6EAF8;
+    text-decoration: none;
+    font-size: 63%;
+    border: 1px solid #D6EAF8;
+    padding: 2px;
+}
+
+.main_section article{
+    background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 2%;
+    margin: 1%;
+    width: 5em;
+}
+
+body{
+    margin:0;
+}

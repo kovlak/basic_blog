@@ -4,20 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer blog</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+
+    
 </head>
 <body>
     <header class="menu_header">
-        <span>¿Quién soy?</span>
-        <span>Gustos</span>
-        <span>¿Qué busco como profesional?</span>
+        <span>
+            <a href="#quien_soy">¿Quién soy?</a>
+        </span>
+        <span>
+            <a href="#gustos">Gustos</a>
+        </span>
+        <span>
+            <a href="#que_busco">¿Qué busco como profesional?</a>
+        </span>
     </header>
+
     <section class="main_section">
-        <article class="quien_soy"></article>
-        <aside class="gustos"></aside>
-        <article class="que_busco"></article>
+        <article class="quien_soy" id="quien_soy">
+            <h2>¿Quién soy?</h2>
+            <p>Gerardo, un desarrollador experto en: </p>
+            <ul>
+                Desarrollo fullstack
+                    <ul>
+                        <li>Javascript</li>
+                        <ul>
+                            <li>NodeJS</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li> React Native</li>
+                        </ul>
+                        <li>Bases de datos</li>
+                        <ul><li>MongoDB</li>
+                            <li>Firebase</li>
+                            <li>Postgress</li>
+                        </ul>
+                        <li>Control de versiones</li>
+                        <ul>
+                            <li>Git y github</li>
+                            <li>bitbucket</li>
+                            <li>gitlab</li>
+                        </ul>
+                        <li>Python</li>
+                        <ul>
+                            <li>Flask</li>
+                            <li>Django</li>
+                            <li>Pandas</li>
+                        </ul>
+                        <li>cloud and devops</li>
+                        <ul>
+                            <li>Azure</li>
+                            <li>aws</li>
+                            <li>Gcloud</li>
+                        </ul>
+                    </ul>
+            </ul>
+        </article>
+        <article class="gustos" id="gustos">
+            <h2>Gustos</h2>
+        </article>
+        <article class="que_busco" id="que_busco">
+            <h2>¿Qué busco como profesional?</h2>
+        </article>
     </section>
-    <footer>
-        <span class="footer">Redes sociales</span>
+
+    <footer class="footer" id="footer">
+        <span class="rrss">Redes sociales</span>
         <span class="trdmark">Gerardo Rojas</span>
     </footer>
 </body>
