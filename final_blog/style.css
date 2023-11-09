@@ -57,7 +57,7 @@ nav{
     position: absolute;
     height: 2px;
     width: 0;
-    bottom: 0;
+    bottom: 7px;
     left: 0;
     background-color: white;
     transition: all 0.5s ease;
@@ -66,7 +66,6 @@ nav{
 .link a:hover::after{
     width: 70%;
     background-color: #1d4ed8;
-
 }
 
 .btn{
